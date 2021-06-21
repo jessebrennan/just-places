@@ -4,7 +4,7 @@
   --light-black: #2e2c2caf;
   --bggradient: linear-gradient(to bottom,
       #93c47d, #fdf6e3);
-
+  --dark-green: #4a633e;
   --light-gray: rbga(255, 255, 255, 0)
 }
 
@@ -37,7 +37,19 @@ main {
   padding: 0;
 }
 
-.section-2.bg-image {
+h2 {
+  font-size: 28pt;
+  color: var(--dark-green);
+
+}
+
+li {
+  margin: 1rem;
+  color: var(--dark-green);
+  font-size: 18pt;
+}
+
+.section-2 .bg-image {
   background-image: url(assets/image18.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,12 +57,11 @@ main {
 }
 
 .overlay {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 10vmin;
-
+  background: rgba(255, 255, 255, 0.87);
+  /* background: rgb(253, 246, 227, 0.87); */
 }
 
-.section-3.bg-image {
+.section-3 .bg-image {
   background-image: url(assets/image22.jpg);
   background-repeat: no-repeat;
   background-size: cover;
